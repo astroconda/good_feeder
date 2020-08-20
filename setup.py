@@ -9,6 +9,8 @@ setup(
     install_requires=[
         'colorama',
         'feedparser',
+        'pytz',
+        'tzlocal',
         'requests',
     ],
     packages=find_packages(),
