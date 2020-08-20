@@ -8,7 +8,7 @@ setup(
     ],
     install_requires=[
         'colorama',
-        'feedreader',
+        'feedparser',
         'requests',
     ],
     packages=find_packages(),
