@@ -39,7 +39,7 @@ def main():
         exit(0)
 
     if not args.jenkins_url:
-        print("Jenkins URL required (i.e. https://jenkins OR https://jenkins/job/folder")
+        print("Jenkins URL required (i.e. https://jenkins OR https://jenkins/job/folder)")
         exit(1)
 
     # Disable SSL drivel when in insecure mode
